@@ -17,7 +17,8 @@
         "doctrine/dbal": "~2.5",
         "twig/twig": "~1.0",
         "niklongstone/regex-reverse": "~0.4",
-        "symfony/yaml": "~2.0"
+        "symfony/yaml": "~2.0",
+        "fakerino/ods-installer": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
@@ -37,9 +38,5 @@
         "bin-dir": "bin"
     },
     "bin": ["app/fake"],
-    "scripts": {
-        "post-install-cmd": "build/ods",
-        "post-update-cmd": "build/ods",
-        "post-create-project-cmd" : "build/ods"
-    }
+    "minimum-stability" : "dev"
 }
