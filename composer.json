@@ -3,7 +3,7 @@
     "description": "Faker framework, for generate every kind of fake data for test, database seed, mock responses, other",
     "keywords": ["faker", "fake", "generator", "data", "seed", "fixtures", "test", "database"],
     "homepage": "http://github.com/niklongstone/fakerino",
-    "type": "library",
+    "type": "fakerino",
     "license": "MIT",
     "authors": [
         {
